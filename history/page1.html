@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset=utf-8 />
+		<title>陶陶居</title>
+		<link rel="stylesheet" href="../screen.css" />
+		<link rel="shortcut icon" href="../image/all_icon.ico" />
+		<script type='text/javascript' src='../jQuery/jquery-1.7.2.min.js'></script>
+		<script>
+			$(window).load(function() {
+				$("#sectionPart").fadeIn(1500);
+				$('#historyBox').load("history_1.html");
+				$('#historyText a').click(function() {
+					var url = $(this).attr('href');
+					$('#historyBox').load(url);
+					return false;
+				});
+			});
+		</script>
+	</head>
+
+	<body>
+		<nav id="navAll" class="container">
+			<a id="LOGO" href="../index.html"><img src="../image/all_LOGO.jpg"/></a>
+			<div class="float_right">
+				<a href="../index.html"><img id="navHome" src="../image/all_home1.png" /></a>
+				<a class="navBtn" href="#">關於陶陶居</a>
+				<img class="navLine" src="../image/all_navLine.jpg" />
+				<a class="navBtn" href="../page2.html">空中博物館</a>
+				<img class="navLine" src="../image/all_navLine.jpg" />
+				<a class="navBtn" href="../page4.html">聯絡我們</a>
+			</div>
+		</nav>
+		<div id="sectionPart" style="display:none;">
+		<section class="container">
+			<article id="about">
+				<div id="aboutImg" class="float_left">
+					<img src="../image/about_img_2.jpg">
+					<p>1989年 每月造訪徐秀棠大師於宜興紫砂廠</p>
+					<img src="../image/about_img_1.jpg">
+					<p>1990年 與廖洪標夫婦於石灣美陶廠合影</p>
+					<img src="../image/about_img_3.jpg">
+					<p>2004年 陶陶居與尚濤夫婦相見歡</p>
+				</div>
+				<div id="aboutText" class="float_right">
+					<h1>陶陶居的故事</h1>
+					<p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;基於對藝術的熱愛，我們於1983年創立了陶陶居至今，一直以來都秉持著絕對虔誠與負責的心態來追求真、精、稀的作品，因為陶陶居知道 : 在當今的大環境中，這是對自己、同時也是對作者最好的交代。<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;這樣的堅持很苦也很難，但也因為如此，許多中國的陶藝和書畫名家，才願意與陶陶居合作。二十多年來，我們先後走遍了江蘇宜興、廣東石灣、上海、南京等地，結識了廖洪標、徐秀棠與徐漢棠兄弟、尚濤、顧景舟、沈巨華、顧紹培等大師級人物，並在不斷地學習與交流之下，親眼見證了數件曠世之作的誕生，過程雖艱辛，可也特別有感觸，陶陶居能有幸在中國經濟開放前後，收藏到這些近代中國文化中的絕品，讓我們與有榮焉，也意識到唯有這樣的經營，才能在藝術家創作、藝術品內涵及審美者感受三者之間達成良性循環。此陶陶居空中博物館的推出，就是希望能藉由這些鉅作來向世界發聲，我們期望作品的影響力，可以提供未來的藝術工作者，無論是著重現代理論的學院派，或是傳統美術的創作者，擁有一個全新的交集空間，也期待其所發揮的震撼力，得去除傳統與現代、東方與西方藝術的鴻溝，為兩岸的美學教育和新文藝復興思潮帶來新的啟示。<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;二十一世紀是中國人的時代，但可以代表中國文化的東西又在何處？冀望這個陶陶居空中博物館，能讓大家再次見證我們華人的驕傲!
+					</p>
+					<h2>「因為有了陶陶居，收藏不再只是收藏，而是種文化的傳承。」</h2>
+					<div id="aboutSign" class="float_right">
+						<p id="signTitle" class="float_left">陶陶居</p>
+						<img class="float_left" src="../image/about_hsuSign.jpg" />
+					</div>
+				</div>
+			</article>
+		</section>
+		<section id="history">
+				<div id="historyBox"></div>
+				<div id="historyText">
+					<h1>陶陶居經營歷程</h1>
+					<a href="history_1.html">
+					<p>1985年   開始與徐秀棠、顧景舟等多位宜陶名家合作</p>
+					</a>
+					<a href="history_2.html">
+					<p>1987年	開始與廖洪標、尚濤大師合作</p>
+					</a>
+					<a href="history_3.html">
+					<p>1988年	開始與陳大羽、李昌鴻等大師合作</p>
+					</a>
+					<a href="history_4.html">
+					<p>1989年	策辦中國古今茗壺展於台北中影文化城</p>
+					</a>
+					<a href="history_5.html">
+					<p>1990年	策辦廣東十大名家畫展</p>
+					</a>
+					<a href="history_6.html">
+					<p>1990年	陶陶居遷址至民生社區(一直至2002年）</p>
+					</a>
+					<a href="history_7.html">
+					<p>1995年	出版宜興紫砂專輯</p>
+					</a>
+					<a href="history_8.html">
+					<p>2002年	陶陶居遷址至內湖(一直至今)</p>
+					</a>
+					<a href="history_9.html">
+					<p>2011年	國際石灣陶藝會來訪</p>
+					</a>
+					<a href="history_10.html">
+					<p>2013年	陶陶居廣州採訪行</p>
+					</a>
+				</div>
+		</section>
+		</div>
+		<footer class="container">
+			<img src="../image/all_footerLine.jpg" />
+			<p>Copyright © 2013 TAOTAOART. All rights reserved. <br>Designed by NAUGHTY3 in Taiwan</p>
+		</footer>		
+	</body>
+</html>

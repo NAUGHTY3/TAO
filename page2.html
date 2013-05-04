@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset=utf-8 />
+		<title>陶陶居</title>
+		<link rel="stylesheet" href="screen.css" />
+		<link rel="shortcut icon" href="../image/all_icon.ico" />
+		<script type='text/javascript' src='jQuery/jquery-1.7.2.min.js'></script>
+		<script type="text/javascript" src="jQuery/jquery.zaccordion.min.js"></script>
+		<script>
+			$(window).load(function() {
+				$("#featured").zAccordion({
+					speed : 4000,
+					slideWidth : 600,
+					width : 1080,
+					height : 540,
+					trigger : "mouseover",
+					auto : false,
+					slideWidth : 980,
+					buildComplete : function() {
+						$('#classAll').fadeIn(1500);
+					},
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<nav id="navAll" class="container">
+			<a id="LOGO" href="index.html"><img src="image/all_LOGO.jpg"/></a>
+			<div class="float_right">
+				<a href="index.html"><img id="navHome" src="image/all_home1.png" /></a>
+				<a class="navBtn" href="history/page1.html">關於陶陶居</a>
+				<img class="navLine" src="image/all_navLine.jpg" />
+				<a class="navBtn" href="#">空中博物館</a>
+				<img class="navLine" src="image/all_navLine.jpg" />
+				<a class="navBtn" href="page4.html">聯絡我們</a>
+			</div>
+		</nav>
+		<section id="classAll" style="display: none;">
+			<ul id="featured">
+				<li>
+					<div id="first" class="classBOX">
+						<p class="page2Text">
+							陶陶居的故事陶陶居的故事陶陶居的故事陶陶居的故事陶陶居的故事陶陶居
+							的故事陶陶居的故事陶陶居的故事陶陶居的故事陶陶居的故事陶陶居的故事
+							陶陶居的故事陶陶居的故事陶陶居的故事陶陶居的故事陶陶居
+						</p>
+						<a class="classBtn" href="liao_1.html">廖洪標大師九十年代作品一覽</a>
+						<img src="image/class_photo_1.jpg" alt="" />
+					</div>
+				</li>
+				<li>
+					<div class="classBOX">
+						<p class="page2Text">
+							陶陶居的故事陶陶居的故事陶陶居的故事陶陶居的故事陶陶居的故事陶陶居
+							的故事陶陶居的故事陶陶居的故事陶陶居的故事陶陶居的故事陶陶居的故事
+							陶陶居的故事陶陶居的故事陶陶居的故事陶陶居的故事陶陶居
+						</p>
+						<a class="classBtn" href="hsu_1.html">徐秀棠大師九十年代作品一覽</a>
+						<img src="image/class_photo_2.jpg" alt="" />
+					</div>
+				</li>
+				<li>
+					<div class="classBOX">
+						<p class="page2Text">
+							陶陶居的故事陶陶居的故事陶陶居的故事陶陶居的故事陶陶居的故事陶陶居
+							的故事陶陶居的故事陶陶居的故事陶陶居的故事陶陶居的故事陶陶居的故事
+							陶陶居的故事陶陶居的故事陶陶居的故事陶陶居的故事陶陶居
+						</p>
+						<a class="classBtn_2" href="shang_1.html">尚濤大師作品一覽</a>
+						<a class="classBtn" href="poet_1.html">古詩今畫集作品一覽</a>
+						<img src="image/class_photo_3.jpg" alt="" />
+					</div>
+				</li>
+
+			</ul>
+		</section>
+		<footer class="container sectionPart">
+			<img src="image/all_footerLine.jpg" />
+			<p>Copyright © 2013 TAOTAOART. All rights reserved. <br>Designed by NAUGHTY3 in Taiwan</p>
+		</footer>		
+	</body>
+</html>
